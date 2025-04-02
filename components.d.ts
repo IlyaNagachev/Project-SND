@@ -7,10 +7,19 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    Gdfht: typeof import('./src/components/Gdfht.vue')['default']
-    Header: typeof import('./src/components/Header.vue')['default']
-    MainPage: typeof import('./src/components/mainPage.vue')['default']
+    Catalog: typeof import('./src/components/product/catalog.vue')['default']
+    CatalogMenu: typeof import('./src/components/product/catalogMenu.vue')['default']
+    CatalogName: typeof import('./src/components/catalogName.vue')['default']
+    Footer: typeof import('./src/components/general/Footer.vue')['default']
+    GlobalCatalog: typeof import('./src/components/product/GlobalCatalog.vue')['default']
+    Header: typeof import('./src/components/general/Header.vue')['default']
+    MainPage: typeof import('./src/components/general/MainPage.vue')['default']
+    Oldpc: typeof import('./src/components/oldpc.vue')['default']
+    OldpcCover: typeof import('./src/components/product/oldpcCover.vue')['default']
+    OldpcPage: typeof import('./src/components/oldpcPage.vue')['default']
+    ProductPage: typeof import('./src/components/product/ProductPage.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TradeInApplication: typeof import('./src/components/product/tradeInApplication.vue')['default']
   }
 }

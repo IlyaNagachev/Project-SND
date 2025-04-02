@@ -1,0 +1,18 @@
+FROM golang:1.23.6-alpine as build
+WORKDIR /snd
+COPY go.mod ./
+COPY go.sum ./
+RUN go mod download
+COPY /backend /snd/backend
+WORKDIR /snd/backend/cmd
+RUN go build -o /snd/snd
+RUN echo test
+
+FROM alpine:latest
+COPY --from=build /snd/snd /snd/snd
+COPY --from=build /snd/backend/templates /snd/templates/
+COPY --from=build /snd/backend/products.json /snd/products.json
+RUN ls -la
+RUN echo test
+
+EXPOSE 8001 10500

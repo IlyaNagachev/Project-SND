@@ -1,11 +1,54 @@
 version: '3.8'
+volumes:
+  scylla_data:
+    driver: local
+networks:
+  test_network:
+    driver: bridge
 
 services:
   frontend:
     ports:
-      - "8000:80"
+      - "8005:80"
+    container_name: frontend
+    networks:
+      - test_network
     build: .
     working_dir: /app
     volumes:
       - .:/app
       - /app/node_modules
+
+
+  backend:
+    ports:
+      - "8001:10500"
+    container_name: backend
+    networks:
+      - test_network
+    build:
+      dockerfile: Dockerfile-backend
+    entrypoint: ["sh","-c", "sleep 7 && /snd/snd -config='/snd/templates/config.yaml'"]
+
+  stage-scylla:
+    image: scylladb/scylla:latest
+    container_name: scylla
+    ports:
+      - "9043:9042"
+      - "10000:10000"  # Порт для API
+      - "7001:7000"  # Порт для межнодового соединения
+    volumes:
+      - scylla_data:/var/lib/scylla
+    command: --developer-mode 1
+    networks:
+      - test_network
+
+  stage-scylla-load-keyspace:
+    container_name: stage-scylla-load-keyspace
+    image: scylladb/scylla:latest
+    volumes:
+      - ./create_keyspace.cql:/scylla_scripts/1.cql
+      - ./initdb.sh:/scylla_scripts/initdb.sh
+    entrypoint: [ "bash", "/scylla_scripts/initdb.sh" ]
+    networks:
+      - test_network

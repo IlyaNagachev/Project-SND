@@ -7,11 +7,15 @@
 // Composables
 
 import { createRouter, createWebHistory } from 'vue-router'
-import MainPage from '../components/mainPage.vue'
+import MainPage from '../components/general/MainPage.vue'
+import ProductPage from "../components/product/ProductPage.vue";
+import CatalogPage from "../components/product/GlobalCatalog.vue";
 
 const router = createRouter({
   history: createWebHistory(),
-  routes: [{path: "/main", component: MainPage}],
+  routes: [{path: "/main", component: MainPage},
+	  {path: "/product", component: ProductPage},
+	  {path: "/catalog", component: CatalogPage}],
 })
 
 // Workaround for https://github.com/vitejs/vite/issues/11804

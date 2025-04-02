@@ -1,0 +1,315 @@
+[
+  {
+    "uuid": "1e2d3c4b-5a6f-7e8d-9c0b-1a2d3e4f5g6h",
+    "class": "Материнская плата",
+    "name": "ASUS ROG STRIX B550-F",
+    "price": 189.99,
+    "img": "./src/assets/images/catalogClass/Motherboard/1.webp",
+    "description": "Игровая материнская плата с поддержкой AMD Ryzen",
+    "specs": {
+      "Сокет": "AM4",
+      "Форм-фактор": "ATX",
+      "Чипсет": "B550"
+    }
+  },
+  {
+    "uuid": "2f3g4h5j-6k7l-8m9n-0p1q-2r3s4t5u6v7w",
+    "class": "Видеокарта",
+    "name": "MSI GeForce RTX 3070",
+    "price": 599.99,
+    "img": "./src/assets/images/catalogClass/Gpu/1.png",
+    "description": "Мощная видеокарта для игр и работы с графикой",
+    "specs": {
+      "Память": "8GB GDDR6",
+      "Разъемы": "HDMI, DisplayPort",
+      "Энергопотребление": "220W"
+    }
+  },
+  {
+    "uuid": "3a4b5c6d-7e8f-9g0h-1i2j-3k4l5m6n7o8p",
+    "class": "Оперативная память",
+    "name": "Corsair Vengeance LPX 16GB",
+    "price": 79.99,
+    "img": "./src/assets/images/catalogClass/Ram/1.jpg",
+    "description": "Быстрая и надежная оперативная память DDR4",
+    "specs": {
+      "Тип": "DDR4",
+      "Частота": "3200MHz",
+      "Объем": "16GB (2x8GB)"
+    }
+  },
+  {
+    "uuid": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+    "class": "Накопители",
+    "name": "Samsung 970 EVO Plus 1TB",
+    "price": 129.99,
+    "img": "./src/assets/images/catalogClass/HDD/1.jpg",
+    "description": "Высокоскоростной NVMe SSD для любых задач",
+    "specs": {
+      "Тип": "NVMe M.2",
+      "Объем": "1TB",
+      "Скорость чтения": "3500MB/s"
+    }
+  },
+  {
+    "uuid": "5f6g7h8i-9j0k-1l2m-3n4o-5p6q7r8s9t0u",
+    "class": "Блок питания",
+    "name": "Corsair RM750x 750W",
+    "price": 129.99,
+    "img": "./src/assets/images/catalogClass/Psu/1.jpg",
+    "description": "Надежный модульный блок питания",
+    "specs": {
+      "Мощность": "750W",
+      "Сертификация": "80 Plus Gold",
+      "Тип": "Модульный"
+    }
+  },
+  {
+    "uuid": "6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w",
+    "class": "Охлаждение",
+    "name": "Noctua NH-D15",
+    "price": 99.99,
+    "img": "./src/assets/images/catalogClass/Cooler/1.jpg",
+    "description": "Тихий и мощный воздушный кулер для процессора",
+    "specs": {
+      "Тип": "Воздушное",
+      "Количество вентиляторов": "2",
+      "Сокет": "AM4, LGA1700, LGA1200"
+    }
+  },
+  {
+    "uuid": "7i8j9k0l-1m2n-3o4p-5q6r-7s8t9u0v1w2x",
+    "class": "Корпус",
+    "name": "NZXT H510",
+    "price": 89.99,
+    "img": "./src/assets/images/catalogClass/Case/1.jpg",
+    "description": "Современный корпус с продуманной вентиляцией",
+    "specs": {
+      "Форм-фактор": "Mid Tower",
+      "Поддержка видеокарт": "до 381мм",
+      "Цвет": "Черный"
+    }
+  },
+  {
+    "uuid": "8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y",
+    "class": "Остальное",
+    "name": "Logitech MX Master 3",
+    "price": 99.99,
+    "img": "./src/assets/images/catalogClass/Other/1.jpg",
+    "description": "Профессиональная беспроводная мышь",
+    "specs": {
+      "Тип": "Беспроводная",
+      "Чувствительность": "4000 DPI",
+      "Время работы": "70 дней"
+    }
+  },
+  {
+    "uuid": "9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z",
+    "class": "Материнская плата",
+    "name": "MSI MAG B660M",
+    "price": 159.99,
+    "img": "./src/assets/images/catalogClass/Motherboard/2.png",
+    "description": "Отличная материнская плата для процессоров Intel",
+    "specs": {
+      "Сокет": "LGA1700",
+      "Форм-фактор": "Micro-ATX",
+      "Чипсет": "B660"
+    }
+  },
+  {
+    "uuid": "0l1m2n3o-4p5q-6r7s-8t9u-0v1w2x3y4z5a",
+    "class": "Видеокарта",
+    "name": "Gigabyte Radeon RX 6800 XT",
+    "price": 699.99,
+    "img": "./src/assets/images/catalogClass/Gpu/2.png",
+    "description": "Мощная видеокарта для 4K-гейминга",
+    "specs": {
+      "Память": "16GB GDDR6",
+      "Разъемы": "HDMI, DisplayPort",
+      "Энергопотребление": "300W"
+    }
+  },
+  {
+    "uuid": "1m2n3o4p-5q6r-7s8t-9u0v-1w2x3y4z5a6b",
+    "class": "Оперативная память",
+    "name": "G.Skill Trident Z RGB 32GB",
+    "price": 149.99,
+    "img": "./src/assets/images/catalogClass/Ram/2.webp",
+    "description": "Высокопроизводительная оперативная память с RGB-подсветкой",
+    "specs": {
+      "Тип": "DDR4",
+      "Частота": "3600MHz",
+      "Объем": "32GB (2x16GB)"
+    }
+  },
+  {
+    "uuid": "2n3o4p5q-6r7s-8t9u-0v1w-2x3y4z5a6b7c",
+    "class": "Накопители",
+    "name": "WD Black SN850X 2TB",
+    "price": 229.99,
+    "img": "./src/assets/images/catalogClass/HDD/2.jpg",
+    "description": "Сверхбыстрый NVMe SSD для гейминга и работы",
+    "specs": {
+      "Тип": "NVMe M.2",
+      "Объем": "2TB",
+      "Скорость чтения": "7300MB/s"
+    }
+  },
+  {
+    "uuid": "3o4p5q6r-7s8t-9u0v-1w2x-3y4z5a6b7c8d",
+    "class": "Блок питания",
+    "name": "Be Quiet! Straight Power 11 850W",
+    "price": 169.99,
+    "img": "./src/assets/images/catalogClass/Psu/2.webp",
+    "description": "Тихий и мощный блок питания с модульными кабелями",
+    "specs": {
+      "Мощность": "850W",
+      "Сертификация": "80 Plus Platinum",
+      "Тип": "Модульный"
+    }
+  },
+  {
+    "uuid": "4p5q6r7s-8t9u-0v1w-2x3y-4z5a6b7c8d9e",
+    "class": "Охлаждение",
+    "name": "Deepcool Castle 360EX",
+    "price": 139.99,
+    "img": "./src/assets/images/catalogClass/Cooler/2.webp",
+    "description": "Жидкостное охлаждение с RGB-подсветкой",
+    "specs": {
+      "Тип": "Жидкостное",
+      "Размер радиатора": "360мм",
+      "Совместимость": "Intel & AMD"
+    }
+  },
+  {
+    "uuid": "5q6r7s8t-9u0v-1w2x-3y4z-5a6b7c8d9e0f",
+    "class": "Корпус",
+    "name": "Fractal Design Meshify C",
+    "price": 109.99,
+    "img": "./src/assets/images/catalogClass/Case/2.jpg",
+    "description": "Компактный корпус с отличной вентиляцией",
+    "specs": {
+      "Форм-фактор": "Mid Tower",
+      "Поддержка видеокарт": "до 360мм",
+      "Цвет": "Черный"
+    }
+  },
+  {
+    "uuid": "6r7s8t9u-0v1w-2x3y-4z5a-6b7c8d9e0f1g",
+    "class": "Остальное",
+    "name": "SteelSeries Apex Pro",
+    "price": 199.99,
+    "img": "./src/assets/images/catalogClass/Other/2.png",
+    "description": "Игровая клавиатура с регулируемыми переключателями",
+    "specs": {
+      "Тип": "Механическая",
+      "Подсветка": "RGB",
+      "Интерфейс": "USB"
+    }
+  },
+  {
+    "uuid": "7s8t9u0v-1w2x-3y4z-5a6b-7c8d9e0f1g2h",
+    "class": "Материнская плата",
+    "name": "GIGABYTE B550I AORUS PRO AX",
+    "price": 159.99,
+    "img": "./src/assets/images/catalogClass/Motherboard/3.jpeg",
+    "description": "Материнская плата для геймеров с поддержкой PCIe 4.0",
+    "specs": {
+      "Сокет": "AM4",
+      "Форм-фактор": "ATX",
+      "Чипсет": "B550"
+    }
+  },
+  {
+    "uuid": "8t9u0v1w-2x3y-4z5a-6b7c-8d9e0f1g2h3i",
+    "class": "Видеокарта",
+    "name": "NVIDIA GeForce RTX 3080",
+    "price": 799.99,
+    "img": "./src/assets/images/catalogClass/Gpu/3.png",
+    "description": "Видеокарта нового поколения для 4K и VR-гейминга",
+    "specs": {
+      "Память": "10GB GDDR6X",
+      "Разъемы": "HDMI, DisplayPort",
+      "Энергопотребление": "320W"
+    }
+  },
+  {
+    "uuid": "9u0v1w2x-3y4z-5a6b-7c8d-9e0f1g2h3i4j",
+    "class": "Оперативная память",
+    "name": "Kingston FURY Beast Black 16GB",
+    "price": 69.99,
+    "img": "./src/assets/images/catalogClass/Ram/3.jpeg",
+    "description": "Высокоскоростная оперативная память для игровых сборок",
+    "specs": {
+      "Тип": "DDR4",
+      "Частота": "3200MHz",
+      "Объем": "16GB (1x16GB)"
+    }
+  },
+  {
+    "uuid": "0v1w2x3y-4z5a-6b7c-8d9e-0f1g2h3i4j5k",
+    "class": "Накопители",
+    "name": "Samsung 990 Pro 1TB",
+    "price": 159.99,
+    "img": "./src/assets/images/catalogClass/HDD/3.jpg",
+    "description": "Быстрый NVMe SSD для повышения производительности системы",
+    "specs": {
+      "Тип": "NVMe M.2",
+      "Объем": "1TB",
+      "Скорость чтения": "3500MB/s"
+    }
+  },
+  {
+    "uuid": "1w2x3y4z-5a6b-7c8d-9e0f-1g2h3i4j5k6l",
+    "class": "Блок питания",
+    "name": "EVGA SuperNOVA 750 G5",
+    "price": 129.99,
+    "img": "./src/assets/images/catalogClass/Psu/3.jpg",
+    "description": "Надежный блок питания с модульной системой подключения",
+    "specs": {
+      "Мощность": "750W",
+      "Сертификация": "80 Plus Gold",
+      "Тип": "Модульный"
+    }
+  },
+  {
+    "uuid": "2x3y4z5a-6b7c-8d9e-0f1g-2h3i4j5k6l7m",
+    "class": "Охлаждение",
+    "name": "Noctua NH-L12S",
+    "price": 79.99,
+    "img": "./src/assets/images/catalogClass/Cooler/3.webp",
+    "description": "Воздушное охлаждение с высокой производительностью и низким уровнем шума",
+    "specs": {
+      "Тип": "Воздушное",
+      "Размер радиатора": "140мм",
+      "Совместимость": "Intel & AMD"
+    }
+  },
+  {
+    "uuid": "3y4z5a6b-7c8d-9e0f-1g2h-3i4j5k6l7m8n",
+    "class": "Корпус",
+    "name": "MasterBox Q300L",
+    "price": 59.99,
+    "img": "./src/assets/images/catalogClass/Case/3.jpg",
+    "description": "Элегантный корпус с отличной сборкой и вентиляцией",
+    "specs": {
+      "Форм-фактор": "Mid Tower",
+      "Поддержка видеокарт": "до 400мм",
+      "Цвет": "Белый"
+    }
+  },
+  {
+    "uuid": "4z5a6b7c-8d9e-0f1g-2h3i-4j5k6l7m8n9o",
+    "class": "Остальное",
+    "name": "Razer DeathAdder V2",
+    "price": 109.99,
+    "img": "./src/assets/images/catalogClass/Other/3.png",
+    "description": "Игровая мышь с эргономичным дизайном и высокой чувствительностью",
+    "specs": {
+      "Тип": "Оптическая",
+      "Чувствительность": "20000 DPI",
+      "Интерфейс": "Bluetooth"
+    }
+  }
+
+]

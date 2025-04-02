@@ -1,0 +1,18 @@
+network:
+  address: "backend"
+  port: 10500
+
+logger:
+  level: "debug"
+
+store:
+  scylla:
+    ip_address: "scylla"
+    keyspace: "snd_project"
+    port: 9042
+    timeout: "10s"
+    max_retries: 5
+    interval_cons: "3s"
+    query_timeout: "1m"
+    num_cons: 3
+    products_table: "products"

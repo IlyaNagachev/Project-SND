@@ -1,0 +1,17 @@
+POST localhost:8001/user/get
+###
+POST localhost:8001/user/create
+Content-Type: application/json
+
+{
+  "uuid" : "2",
+  "description" : "KNihniuojoisgnosijg",
+  "img" : "dggfd",
+  "name" : "GRX 1060",
+  "price" : 200,
+  "specs" : {
+    "Размер" : "230x560",
+    "Производитель" : "Nvidia"
+  }
+}
+

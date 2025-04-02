@@ -3,8 +3,8 @@ class Config {
 	private readonly devHost : string
 
 	constructor() {
-		this.prodHost = "http://localhost:4001"
-		this.devHost = "http://localhost:4002"
+		this.prodHost = "http://localhost:8001"
+		this.devHost = "http://localhost:8001"
 	}
 
 	getProdUrl() : string {return this.prodHost}
